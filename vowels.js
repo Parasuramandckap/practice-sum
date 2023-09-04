@@ -22,3 +22,19 @@ const string = prompt('Enter a string: ');
 const result = countVowel(string);
 
 console.log(result);
+
+
+
+function a(a)
+{
+    let result = 0;
+    let vowles = ["a","e","i","o","u"]
+    for(let i=0;i<a.length;i++){
+      if(vowles.includes(a[i])){
+         result++
+      }
+    }
+    return result;
+}
+
+console.log(a("morning"))
